@@ -1,0 +1,386 @@
+*{
+  box-sizing: border-box;
+}
+
+div {
+  display: block
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: baseline;
+
+  display: block;
+
+  list-style: none;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer {
+  background-color: #212a2f;
+  padding: 72px 0;
+}
+
+.footer-cotainer {
+  width: 100%;
+  margin: 0 auto;
+
+  max-width: 1200px;
+  padding: 0 24px;
+}
+
+.footer-grid {
+  display: flex;
+  flex-flow: row wrap;
+
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ---------- SIGN UP ---------- */
+
+.footer-grid-cell-largeup-4 {
+  width: 33.33333%;
+
+  position: relative;
+  display: block;
+}
+
+.footer-email-signup {
+  margin-bottom: 72px;
+}
+
+.footer-email-signup-form-label {
+  margin-bottom: 6px;
+}
+
+.footer-email-signup-form-input {
+  color: rgb(255, 255, 255);
+
+  font-weight: 400;
+  line-height: 1.36;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 0px;
+
+  cursor: default;
+}
+
+.footer-email-signup-form-row {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.footer-email-signup-form-input-cell {
+  margin-right: 6px;
+  margin-bottom: 0px;
+  width: 70%;
+}
+
+.footer-email-signup-form-input-container {
+  margin-bottom: 18px;
+}
+
+.footer-email-signup-form-input-inverse {
+  text-rendering: auto;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  border-image: initial;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  width: 100%;
+  appearance: none;
+  height: 48px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  border-bottom-color: rgb(33, 42, 47);
+  color: rgb(33, 42, 47);
+  box-shadow: transparent 0px 2px 0px 0px inset, transparent 2px 0px 0px 0px inset, transparent -2px 0px 0px 0px inset;
+  outline: none;
+  /* background: rgb(245, 245, 245); */
+  border-width: 0px 0px 2px;
+  border-style: solid;
+  padding: 2px 12px 0px;
+  transition: border-color 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s, background-color 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s, box-shadow 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 85, 89);
+  border-color: rgb(255, 255, 255);
+}
+
+.footer-email-signup-form-button-cell {
+  margin-left: 6px;
+  width: 30%;
+}
+
+.footer-email-signup-form-button {
+  appearance: button;
+  text-rendering: auto;
+  word-spacing: normal;
+  text-indent: 0px;
+  text-shadow: none;
+  align-items: flex-start;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 14px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-align: center;
+  opacity: 1;
+  position: relative;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 13px 18px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: initial;
+  text-decoration: none;
+  border-radius: 2px;
+
+  background-color: rgb(77, 85, 89);
+  color: rgb(255, 255, 255);
+  border-color: rgb(77, 85, 89);
+
+  width: 100%;
+  display: block;
+}
+
+/* ---------- LINK LISTS ---------- */
+
+.footer-link-lists {
+  text-align: left;
+  margin-bottom: 72px;
+}
+
+.footer-grid-cell-largeup-3 {
+  width: 25%;
+
+  position: relative;
+  display: block;
+}
+
+.footer-heading {
+  font-size: 14px;
+
+  color: #fff;
+
+  margin: 0 0 18px;
+
+  line-height: 1.5;
+
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.footer-link-list {
+  margin-bottom: auto;
+}
+
+.footer-link-list-item {
+  list-style-type: none;
+  margin-bottom: 12px;
+
+  display: list-item;
+}
+
+.footer-link {
+  font-size: 12px;
+
+  font-weight: 400;
+  display: inline;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: .5px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  cursor: pointer;
+}
+
+/* ---------- EXTERNAL PROPERTIES ---------- */
+
+.footer-external-properties {
+  text-align: left;
+  margin-bottom: 90px;
+}
+
+.footer-description {
+  font-size: 12px;
+
+  color: #fff;
+
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: .5px;
+  margin: 0 0 18px;
+}
+
+.footer-social-icons-list {
+  margin-bottom: auto;
+}
+
+.footer-social-icons-list-item {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+.footer-social-icon-link {
+  width: 18px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  display: inline-block;
+  color: #000;
+
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.AspectRatio {
+  padding-bottom: 92.72030651340997%;
+
+  position: relative;
+
+  color: #000;
+
+  cursor: pointer;
+}
+
+.footer-social-icon {
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: block;
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+
+  transition: opacity ease-in-out;
+  opacity: 1;
+
+  max-width: 100%;
+}
+
+.footer-corp-logo-container {
+  text-align: center;
+
+  margin-bottom: auto;
+}
+
+.footer-corp-logo {
+  max-width: 78px;
+
+  transition: opacity ease-in-out;
+  opacity: 1;
+
+  text-align: center;
+}
+
+.footer-grid-cell-largeup-6 {
+  width: 50%;
+
+  position: relative;
+  display: block;
+}
+
+.footer-country-flags-list {
+  justify-content: flex-start;
+  margin-bottom: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-country-flags-list-item {
+  margin-right: 24px;
+
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-country-flag-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  display: inline-block;
+  color: #000;
+
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-country-flag {
+  width: 37px;
+
+  transition: opacity ease-in-out;
+  opacity: 1;
+
+  max-width: 100%;
+
+  color: #000;
+
+  cursor: pointer;
+}
+
+.footer-privacy-and-terms {
+  color: #fff;
+}
+
+.typography-paragraph {
+  text-align: center;
+  color: #fff;
+
+  font-size: 12px;
+
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: .5px;
+  margin: 0 0 18px;
+}
+
+.typography-inline-link {
+  font-size: 12px;
+
+  text-decoration: underline;
+
+  font-weight: 400;
+  display: inline;
+  color: #fff;
+  letter-spacing: .5px;
+
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-shadow: inset 0 -2px 0 0 #212a2f;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  cursor: pointer;
+}
